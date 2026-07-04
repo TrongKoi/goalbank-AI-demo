@@ -1,0 +1,18 @@
+# Hơi nặng và không cần thiết trên GitHub (BẮT BUỘC GIẤU)
+node_modules/
+.vite/
+dist/
+
+# Giấu môi trường ảo Python (BẮT BUỘC GIẤU)
+backend/venv/
+venv/
+*.pyc
+__pycache__/
+.pytest_cache/
+
+# Nếu bạn muốn giấu TOÀN BỘ mã nguồn Backend (chỉ hiển thị giao diện Frontend)
+backend/
+
+# Giấu các file chứa mật khẩu, key bí mật (nếu có)
+.env
+.env.local
